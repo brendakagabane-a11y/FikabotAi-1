@@ -1,4 +1,5 @@
 {
+  "type": "module",
   "name": "ai-backend",
   "version": "1.0.0",
   "description": "Simple AI API proxy using Hugging Face",
