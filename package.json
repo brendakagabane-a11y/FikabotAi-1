@@ -1,13 +1,14 @@
 {
   "type": "module",
-  "name": "ai-backend",
+  "name": "fikabot-ai-backend",
   "version": "1.0.0",
-  "description": "Simple AI API proxy using Hugging Face",
+  "description": "Simple AI API proxy using Hugging Face for FikaBot",
   "main": "server.js",
   "scripts": {
     "start": "node server.js"
   },
   "dependencies": {
+    "cors": "^2.8.5",
     "express": "^4.18.2",
     "node-fetch": "^3.3.2"
   }
